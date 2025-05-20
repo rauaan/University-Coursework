@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Visit</title>
+        <link rel="stylesheet" href="../CSS/Visit.css">
+        <link rel="stylesheet" href="../CSS/Default.css">
+
+        <script src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+        <script src="../JS/Visit.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <img src="../image/logo.png" alt="logo.png" width="334" height="100">
+            <h1>Visonary Innovation Hub</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+                <li><a href="Visit.html">Visit</a></li>
+                <li><a href="Information.html">Information</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="welcome_block" class="info_block">
+            <p>We warmly invite you to visit us at the Visionary Innovation Hub, located in the
+                Kowloon High-Tech Park. Here, you'll experience our dynamic and innovative
+                community dedicated to fostering research and entrepreneurship.
+            </p>
+            <p>During your visit, you can explore our cutting-edge facilities, including advanced
+                laboratories, collaborative workspaces, and specialized innovation labs. These
+                resources are designed to support our faculty, students, and industry partners in
+                driving technological advancements.
+            </p>
+            <p>You'll have the opportunity to meet our esteemed faculty and industry experts, who
+                are committed to providing essential knowledge and skills in various fields such as
+                artificial intelligence, biotechnology, and sustainable technology. Our faculty
+                members are recognized leaders, with their research featured in top-tier journals
+                and conferences.
+            </p>
+            <p>We look forward to welcoming you soon to experience the vibrant atmosphere of the
+                Visionary Innovation Hub and see how we are shaping the future of innovation.
+            </p>
+        </div>
+
+        <div id="location_block">
+            <img src="../image/location.jpg" alt="location.png">
+            <div id="location_text">
+                <h3>Location</h3>
+                <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+                <p>Tel: (852) 1234 5678</p>
+                <p>Fax: (852) 8765 4321</p>
+                <p>Email: visit@vih.org.hk</p>
+            </div>
+        </div>
+
+        <div id="reservation_block">
+            <h3>Visionary Innovation Hub is having an open day! Please make a reservation to visit
+                our campus!</h3>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend><h3>Booking information</h3></legend>
+                    <div id="fieldset_labels">
+                        <label for="d1">Date:</label>
+                        <label for="t1">Time:</label>
+                        <label for="n1">No.of Visitors</label>
+                    </div>
+                    <div id="fieldset_inputs">
+                        <input type="date" id="d1" name="Date"><br>
+                        <select id="t1" name="time" class="no_radius">
+                            <option value="9.00-10.00am">9.00-10.00am</option>
+                            <option value="10.00-11.00am">10.00-11.00am</option>
+                            <option value="2.00-3.00pm">2.00-3.00pm</option>
+                            <option value="3.00-4.00pm">3.00-4.00pm</option>
+                            <option value="4.00-5.00pm">4.00-5.00pm</option>
+                        </select><br>
+                        <input type="number" id="n1" name="number of visitors">
+                    </div>
+                    <br><div id="error"></div>
+                    <div id="buttons">
+                        <input id="submit" type="submit" value="Check Availability" class="no_radius" >
+                        <input id='reset' type="reset" class="no_radius" onclick="onReset()">
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div><br>
+
+        <footer>
+            <img src="../image/footer_logo.png" alt="footer_logo.png" width="260" height="40"><br>
+            <em>&#169;CityU 2024 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a id="footer_link" href="Design.html">Baidrakhman Rauan</a></em>
+        </footer>
+    </body>
+</html>
+        
