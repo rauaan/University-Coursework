@@ -1,0 +1,15 @@
+footer{
+    margin-top: 1em;
+}
+
+#Design_block, #css{
+    margin-left: 2em;
+    max-width: max-content;
+    padding: 1em;
+}
+#css{
+    margin:auto;
+}
+dt{
+    font-weight: bold;
+}

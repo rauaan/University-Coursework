@@ -1,0 +1,16 @@
+
+
+
+video{
+    max-width:90%;
+}
+.text, .video{
+    max-width: calc(50% - 2em);
+    float: left;
+    margin: 1em;
+
+}
+#information_table{
+    clear:both;
+}
+

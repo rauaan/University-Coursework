@@ -1,0 +1,27 @@
+
+
+#promotional_image_block > img{
+    width:100%;
+}
+
+#information_block > *{
+    margin:1em;
+} 
+
+#welcome_block, #table_block{
+    box-sizing: border-box;
+    max-width: calc(50% - 2em);
+    float:left;
+}
+
+#welcome_block > p{
+    padding:1em;
+    
+}
+
+footer{
+    clear:both;
+}
+nav{
+    margin:-5px 0;
+}

@@ -1,0 +1,42 @@
+
+#welcome_block > * {
+    padding: 1em;
+}
+.main{
+    margin: 1em 0;
+}
+
+#basic_information_block{
+    padding: 1em;
+}
+#img_location{
+    width:60%;
+}
+
+#img_apply{
+    width:50%;
+    box-shadow: 5px 10px gray;
+    box-sizing: border-box;
+    transition: 2s;
+}
+#img_apply:hover{
+    width:60%;
+}
+
+#table_block{
+    float:left;
+    max-width: 50%;
+}
+
+#location_block{
+    float:right;
+    max-width: 50%;
+}
+
+footer{
+    clear: both;
+}
+#welcome_block{
+    max-width: 95%;
+    margin: 1em auto;
+}

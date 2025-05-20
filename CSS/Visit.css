@@ -1,0 +1,43 @@
+#welcome_block{
+    margin: 1em auto;
+    max-width: 95%;
+}
+
+#welcome_block > p, #location_text > p{
+    padding:1em;
+}
+#location_block > img,#location_text{
+    max-width:calc(50% - 2em);
+    float:left;
+    margin:1em;
+}
+
+#reservation_block{
+    clear:left;
+    max-width: 80%;
+    margin:auto;
+    padding: 1em;
+}
+#reservation_block > h3{
+    text-align: center;
+}
+
+legend, #buttons{
+    margin: 1em;
+}
+#fieldset_labels{
+    margin-left: 10%;
+}
+#fieldset_labels, #fieldset_inputs{
+    display: inline-block;
+}
+
+#fieldset_labels > label{
+    display: block;
+    text-align: right;
+    
+}
+
+fieldset{
+    background-color: white;
+}
